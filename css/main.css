@@ -37,9 +37,9 @@
  *    ## home animations
  *  # about
  *    ## about process
- *  # services
- *    ## services list
- *  # works
+ *  # registration
+ *    ## registration list
+ *  # schedule
  *    ## bricks/masonry
  *  # testimonials
  *  # stats
@@ -2372,10 +2372,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # services
+ * # registration
  *
  * ------------------------------------------------------------------- */
-.s-services {
+.s-registration {
   padding-top: 18rem;
   padding-bottom: 18rem;
   color: #555555;
@@ -2384,19 +2384,19 @@ html.no-csstransitions .home-content__main {
 
 
 /* -------------------------------------------------------------------
- * ## services list
+ * ## registration list
  * ------------------------------------------------------------------- */
-.services-list {
+.registration-list {
   margin-top: 6rem;
 }
-.services-list .service-item {
+.registration-list .service-item {
   margin-bottom: 1.5rem;
 }
-.services-list .service-item h3 {
+.registration-list .service-item h3 {
   margin-top: 0;
   margin-bottom: 1.8rem;
 }
-.services-list .service-icon {
+.registration-list .service-icon {
   color: #26bfb5;
   font-size: 4.8rem;
 }
@@ -2404,44 +2404,44 @@ html.no-csstransitions .home-content__main {
 
 /* -------------------------------------------------------------------
  * responsive:
- * services
+ * registration
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
-  .s-services {
+  .s-registration {
     padding-top: 15rem;
     padding-bottom: 15rem;
   }
 
-  .services-list [class*="col-"]:nth-child(2n + 1) {
+  .registration-list [class*="col-"]:nth-child(2n + 1) {
     padding-right: 30px;
   }
-  .services-list [class*="col-"]:nth-child(2n + 2) {
+  .registration-list [class*="col-"]:nth-child(2n + 2) {
     padding-left: 30px;
   }
 }
 @media only screen and (max-width: 800px) {
-  .s-services {
+  .s-registration {
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
 
-  .services-list {
+  .registration-list {
     margin-top: 3rem;
   }
-  .services-list .service-icon {
+  .registration-list .service-icon {
     font-size: 4.5rem;
   }
-  .services-list [class*="col-"]:nth-child(n) {
+  .registration-list [class*="col-"]:nth-child(n) {
     padding: 0 15px;
   }
 }
 @media only screen and (max-width: 600px) {
-  .services-list [class*="col-"]:nth-child(n) {
+  .registration-list [class*="col-"]:nth-child(n) {
     padding: 0 10px;
   }
 }
 @media only screen and (max-width: 400px) {
-  .s-services {
+  .s-registration {
     padding-top: 9.6rem;
   }
 
@@ -2453,10 +2453,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # works
+ * # schedule
  *
  * ------------------------------------------------------------------- */
-.s-works {
+.s-schedule {
   background: #ffffff;
   padding: 18rem 0 24rem;
   position: relative;
@@ -2640,7 +2640,7 @@ html.no-csstransitions .home-content__main {
 
 /* -------------------------------------------------------------------
  * responsive:
- * works
+ * schedule
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1500px) {
   .masonry-wrap {
@@ -2673,7 +2673,7 @@ html.no-csstransitions .home-content__main {
   }
 }
 @media only screen and (max-width: 1200px) {
-  .s-works {
+  .s-schedule {
     padding: 15rem 0 22.2rem;
   }
 }
@@ -2689,7 +2689,7 @@ html.no-csstransitions .home-content__main {
   }
 }
 @media only screen and (max-width: 800px) {
-  .s-works {
+  .s-schedule {
     padding: 12rem 0 21rem;
   }
 
@@ -2704,7 +2704,7 @@ html.no-csstransitions .home-content__main {
   }
 }
 @media only screen and (max-width: 400px) {
-  .s-works {
+  .s-schedule {
     padding: 9.6rem 0 21rem;
   }
 
