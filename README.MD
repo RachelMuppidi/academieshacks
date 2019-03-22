@@ -1,11 +1,36 @@
+## Release History
+
+* 0.1.1 3-18-2019
+    * Navbar, jumbotron
+      * ADD: signup buttons in Navbar
+      * CHANGE:  Background Photo in jumbotron
+      * CHANGE: Color Scheme to match customer requirements (blue/teal)
+
+* 0.2.1 3-20-2019
+    * Made changes based on CSR #1
+      *  ADD: Logo in left hand corner
+      *  CHANGE: Text under signup buttons
+
+      * 0.2.1 3-20-2019
+          * Made changes based on CSR #1
+            *  ADD: Logo in left hand corner
+            *  CHANGE: Text under signup buttons
+
+      academies of loudoun Logo
+      background photo
+      add three sponsers: Rathyon microsoft google
+
+
+
+
 ==================================================================================================
 
 DESCRIPTION:
 
-TRANSCEND is a clean and modern HTML template for agencies, studios or any creative profession. 
-It features a creative and clean design with an emphasis on typography, white space and attention 
-to detail. Transcend is fully responsive and retina-ready. Other features of the template are 
-animating stats section, stylish portfolio section, built-in Mailchimp integration and much more. 
+TRANSCEND is a clean and modern HTML template for agencies, studios or any creative profession.
+It features a creative and clean design with an emphasis on typography, white space and attention
+to detail. Transcend is fully responsive and retina-ready. Other features of the template are
+animating stats section, stylish portfolio section, built-in Mailchimp integration and much more.
 It is built with clean and organized code making it very easy to customize.
 
 ==================================================================================================
@@ -13,11 +38,11 @@ It is built with clean and organized code making it very easy to customize.
 
 USING THE MAILCHIMP FORM:
 
-To use the mailchimp form you need a mailchimp url. To get the mailchimp url, login to 
-your mailchimp account, click the list menu, click the stats download menu and select signup forms. 
-Then choose embedded forms and select naked form. In the generated form code get the value of 
+To use the mailchimp form you need a mailchimp url. To get the mailchimp url, login to
+your mailchimp account, click the list menu, click the stats download menu and select signup forms.
+Then choose embedded forms and select naked form. In the generated form code get the value of
 the form ACTION attribute and use it as your mailchimp url. Open the main.js file located
-in the template's "js" folder and look for this line of code: 
+in the template's "js" folder and look for this line of code:
 
 var cfg = {
     scrollDuration : 800, // smoothscroll duration
@@ -42,7 +67,7 @@ Icons:
 
 Stock Photos and Graphics:
  - Unsplash.com (https://unsplash.com/)
- 
+
 Javascript Files:
 
  - JQuery (http://jquery.com/)
@@ -60,8 +85,3 @@ Javascript Files:
 
 
 -------------------------------------------------------------------------------------------------------
-
-
-
-
-
